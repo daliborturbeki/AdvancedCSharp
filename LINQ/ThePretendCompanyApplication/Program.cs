@@ -41,4 +41,13 @@ foreach (var result in resultList)
 
 Console.WriteLine("\n##############################################\n");
 
+var averageAnnualSalary = employees.Average(employee => employee.AnnualSalary);
+var highestAnnualSalary = employees.Max(employee => employee.AnnualSalary);
+var lowestAnnualSalary = employees.Min(employee => employee.AnnualSalary);
+
+Console.WriteLine("Average Annual Salary: " + averageAnnualSalary);
+Console.WriteLine("Highest Annual Salary: " + highestAnnualSalary);
+Console.WriteLine("Lowest Annual Salary: " + lowestAnnualSalary);
+
+Console.WriteLine("\n##############################################\n");
 
