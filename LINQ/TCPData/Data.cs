@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TCPData
 {
-    internal static class Data
+    public static class Data
     {
         public static List<Employee> GetEmployees()
         {

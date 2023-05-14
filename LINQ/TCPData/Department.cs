@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TCPData
 {
-    internal class Department
+    public class Department
     {
         public Department() { }
 
